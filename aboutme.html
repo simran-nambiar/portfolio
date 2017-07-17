@@ -1,47 +1,60 @@
-<!DOCTYPE html>
 <html>
 
 <head>
     <title>Simran</title>
     <style>
-            .title {
-            background-color: blue;
+        .title {
+            background-color: white;
             font-family: Jazz LET, fantasy;
-      }
+        }
         
-            #menubar {
-               display: flex;
-                list-style-type: none;
-                margin: 0;
-                padding: 0; 
-                text-color: black;
-                
-            }
-            .aboutMe {
-                display: flex;
-                list-style-type: none;
-                margin: 30px;
-                padding: 50px;
-            }
-            
-            #picture {
-                margin: 0;
-                padding: 50px;
-                float: center;
-            }
+        #menubar {
+            color: black display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #flex {
+            display: flex;
+        }
+        
+        .aboutMe {
+            display: flex;
+            list-style-type: none;
+            margin: 30px;
+            padding: 50px;
+        }
+        
+        #picture {
+            margin: 0;
+            padding: 50px;
+            float: center;
+        }
+        
+        #both {
+            display: flex;
+        }
+        
+        .facts {
+            display: flex;
+            width: 100%;
+            margin: 20px;
+            padding: 50px;
+        }
     </style>
 </head>
 
 <body>
-    <div class ="title">
+    <div class="title">
         <div id="simran">
             <h1><center>Simran</center></h1>
         </div>
         <div id="menubar">
             <ul>
-                <li><bold><a href="default.asp">About Me</a>/bold></li>
-                <li><bold><a href="news.asp">Projects</a></bold></li>
-                <li><bold><a href="contact.asp">Contact</a></bold></li>
+                <li><b><a href="default.asp">About Me</a></b></li>
+                <li><b><a href="news.asp">Projects</a></b></li>
+                <li><b><a href="contact.asp">Contact</a></b></li>
             </ul>
         </div>
     </div>
@@ -60,28 +73,56 @@
             <img src="https://s-media-cache-ak0.pinimg.com/originals/36/ce/27/36ce27e1f4053b1c4a0d14d04cd1e863.jpg" alt="me" style="width:120px;height:120x;">
         </div>
         <div id="likes">
-            <h3><bold>Likes and Dislikes</bold></h3>
-            <div id="left">
-                <h4>Likes</h4>
-                <ul>
-                    <li>Soccer</li>
-                    <li>Basketball</li>
-                    <li>Beach</li>
-                    <li>Coding</li>
-                </ul>
-            </div>
-            <div id="right">
-                <h4>Dislikes</h4>
-                <ul>
-                    <li>Shower Drains</li>
-                    <li>Basketball</li>
-                    <li>Beach</li>
-                    <li>Coding</li>
-                </ul>
-
+            <h3><bold><center>Likes and Dislikes</center></bold></h3>
+            <div id="both">
+                <div id="left">
+                    <h4>    Likes</h4>
+                    <ul>
+                        <li>Soccer</li>
+                        <li>Basketball</li>
+                        <li>Beach</li>
+                        <li>Coding</li>
+                    </ul>
+                </div>
+                <div id="right">
+                    <h4>    Dislikes</h4>
+                    <ul>
+                        <li>Shower Drains</li>
+                        <li>Basketball</li>
+                        <li>Beach</li>
+                        <li>Coding</li>
+                    </ul>
+                </div>
             </div>
         </div>
+    </div>
+    <div class="facts">
+        <div id="websites">
+            <h4><b><center>Favorite Websites</center></b></h4>
+            <img src="http://feedfad.com/wp-content/uploads/2017/03/useful-apps.jpg" style="width:100px;height:200px;">
+            <ul>
+                <li><b><a href="www.instagram.com">Instagram</a></b></li>
+                <li><b><a href="www.google.com">Google</a></b></li>
+                <li><b><a href="www.facebook.com">Facebook</a></b></li>
+                <li><b><a href="www.spotify.com">Spotify</a></b></li>
+            </ul>
+        </div>
+
+        <div id="sidescroller">
+            <h4><b><center>Side Scroller Game</center></b></h4>
+            <img src="<iframe allowtransparency=" true " width="485 " height="402 " src="//scratch.mit.edu/projects/embed/168770248/?autostart=false " frameborder="0 " allowfullscreen></iframe>
+    " style="width:200px;height:200px;">
+
+        </div>
+
+        <div id="fun">
+            <h4><b><center>Fun Facts</center></b></h4>
+            <img src="https://static.independent.co.uk/s3fs-public/styles/story_medium/public/thumbnails/image/2015/04/30/09/sharks-5.jpg" style="width:100px;height:200px;">
+            <p>My favorite animal is a great white shark!</p>
+        </div>
+
+    </div>
+
 </body>
 
 </html>
-  
