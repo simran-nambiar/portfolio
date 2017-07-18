@@ -7,23 +7,28 @@
             background-color: lightblue;
             font-family: Jazz LET, fantasy;
         }
-*{
-background-color: lightblue;
-}
+        
+        * {
+            background-color: lightblue;
+        }
         
         #menubar {
-             float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: flex;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            display: flex;
         }
         
         #flex {
             display: flex;
+        }
+        
+        #picture {
+            float: center width: 120px;
+            height: 120px;
         }
         
         .aboutMe {
@@ -31,13 +36,36 @@ background-color: lightblue;
             list-style-type: none;
             margin: 30px;
             padding: 50px;
-            
         }
         
-        #aboutMe, #picture, #likes {
-            width: 33%;
-            
+        #bar {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            display: flex;
         }
+        
+        #sidescroller {
+            padding: 50px;
+        }
+        
+        #aboutMe,
+        #picture,
+        #likes {
+            width: 33%;
+        }
+        
+        #fun,
+        #websites {
+            margin-left: auto;
+            margin-right: auto;
+            width: 6em
+        }
+        
         #picture {
             margin: 0;
             padding: 50px;
@@ -53,12 +81,12 @@ background-color: lightblue;
             width: 100%;
             margin: 20px;
             padding: 50px;
-          
         }
-        #fun, #sidescroller, #websites {
+        
+        #fun,
+        #sidescroller,
+        #websites {
             width: 33%;
-            
-          
         }
     </style>
 </head>
@@ -69,26 +97,30 @@ background-color: lightblue;
             <h1><center>Simran</center></h1>
         </div>
         <div id="menubar">
-            <ul>
-                <li><b><a href="default.asp">About Me</a></b></li>
-                <li><b><a href="news.asp">Projects</a></b></li>
-                <li><b><a href="contact.asp">Contact</a></b></li>
-            </ul>
+            <div id="bar">
+                <ul>
+                    <li><b><a href="default.asp">About Me</a></b></li>
+                    <li><b><a href="news.asp">Projects</a></b></li>
+                    <li><b><a href="contact.asp">Contact</a></b></li>
+                </ul>
+            </div>
         </div>
     </div>
 
     <div id="slideshow">
+
         <img src="https://media.giphy.com/media/l1KVbu8KaTk0aXSVi/giphy.gif" alt="Shark" style="width:100%;height:400px;">
     </div>
 
     <div class="aboutMe">
         <div id="bio">
             <h3><bold>About Me</bold></h3>
-            <p> My name is Simran Nambiar, and I am going to be a junior in highschool. I play soccer and basketball. I am from India. I like travelling. I want to go to South Africa to swim with sharks. 
+            <p> My name is Simran Nambiar, and I am going to be a junior in highschool. I play soccer and basketball. I am from India. I like travelling. I want to go to South Africa to swim with sharks.
                 <p/>
         </div>
         <div id="picture">
-            <img src="https://s-media-cache-ak0.pinimg.com/originals/36/ce/27/36ce27e1f4053b1c4a0d14d04cd1e863.jpg" alt="me" style="width:120px;height:120x;">
+            <blockquote class="imgur-embed-pub" lang="en" data-id="9GBUoVL"></blockquote>
+            <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
         </div>
         <div id="likes">
             <h3><bold><center>Likes and Dislikes</center></bold></h3>
@@ -128,8 +160,8 @@ background-color: lightblue;
 
         <div id="sidescroller">
             <h4><b><center>Side Scroller Game</center></b></h4>
-                 <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/168770248/?autostart=false" frameborder="0" allowfullscreen></iframe>
-    
+            <iframe allowtransparency="true" width=100% height=40% src="//scratch.mit.edu/projects/embed/168770248/?autostart=false" frameborder="0" allowfullscreen></iframe>
+
         </div>
 
         <div id="fun">
@@ -139,9 +171,8 @@ background-color: lightblue;
         </div>
 
     </div>
+    </div>
 
 </body>
 
 </html>
-  
-  
