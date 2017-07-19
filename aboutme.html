@@ -15,8 +15,19 @@
             font-size: 100px;;
         }
         
-        #menubar {
-           
+        li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+        
+        #special {
     display: inline
           list-style-type: none;
     margin: 0;
@@ -25,6 +36,24 @@
     background-color: #333;
 
         }
+        
+        .match{
+           
+    float: left;
+}
+
+.match a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.match a:hover {
+    background-color: #111;
+}
         
         #flex {
             display: flex;
@@ -41,18 +70,7 @@
             margin: 30px;
             padding: 50px;
         }
-        
-        #bar {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-            display: flex;
-        }
-        
+      
         #sidescroller {
             padding: 50px;
         }
@@ -101,7 +119,7 @@
         </div>
         <div id="menubar">
             <div id="bar">
-                <ul>
+                <ul id = "special">
                     <li><b><a href="default.asp">About Me</a></b></li>
                     <li><b><a href="news.asp">Projects</a></b></li>
                     <li><b><a href="contact.asp">Contact</a></b></li>
@@ -131,10 +149,10 @@
                 <div id="left">
                     <h4>    Likes</h4>
                     <ul><center>
-                        <li>Soccer</li>
-                        <li>Basketball</li>
-                        <li>Beach</li>
-                        <li>Coding</li>
+                        <li class = "match">Soccer</li>
+                        <li class = "match">Basketball</li>
+                        <li class = "match">Beach</li>
+                        <li class = "match">Coding</li>
                         </center></ul>
                 </div>
                 <div id="right">
