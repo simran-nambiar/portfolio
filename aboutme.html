@@ -17,31 +17,34 @@
         }
         
        
-        #special {
-    display: inline
-          list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+        .topnav {
     background-color: #333;
-        }
-        
-        .match{
-           
-   align: center;
-   display: flex;
+    overflow: hidden;
 }
-.match a {
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
     display: block;
-    color: white;
+    color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
 }
-/* Change the link color to #111 (black) on hover */
-.match a:hover {
-    background-color: #111;
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
 }
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+        
         
         #flex {
             display: flex;
@@ -121,14 +124,14 @@
         <div id="simran">
             <h1><center>Simran</center></h1>
         </div>
-        <div id="menubar">
-            <div id="bar">
+        <div class="topnav" id="myTopnav">
+            
                 <ul id = "special">
                     <li><b><a href="default.asp">About Me</a></b></li>
                     <li><b><a href="news.asp">Projects</a></b></li>
                     <li><b><a href="contact.asp">Contact</a></b></li>
                 </ul>
-            </div>
+           
         </div>
     </div>
 
