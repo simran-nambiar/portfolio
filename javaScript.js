@@ -10,6 +10,6 @@ var greetingElement = document.getElementById("simran");
 // element.addEventListener("event", callback function)
 greetingElement.addEventListener("click", function(){
   document.getElementById("btn-text").innerHTML = "you clicked me, thanks!";
-);
+});
 
 
