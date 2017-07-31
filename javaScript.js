@@ -9,7 +9,7 @@ var greetingElement = document.getElementById("simran");
 // so this is the general format (ps: there are more ways to do this!!!):
 // element.addEventListener("event", callback function)
 greetingElement.addEventListener("click", function(){
-  document.getElementById("simran").innerHTML = "you clicked me, thanks!";
+  document.getElementById("btn-text").innerHTML = "you clicked me, thanks!";
 });
 
 
